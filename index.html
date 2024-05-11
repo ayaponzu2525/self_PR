@@ -61,7 +61,28 @@
     }
     /*ここまでが画像の横に文字並べる(レスポンシブ入り)*/
 
+    /* 宮古島*/
+    .ocean {/*親div*/
+        position: relative;/*相対配置*/
+    }
 
+    .ocean p {
+    position: absolute;/*絶対配置*/
+    color: rgba(255, 255, 255, 0.6);/*半透明*/
+    top: 50%;
+    left: 15%;
+    margin: 0; /*余計な隙間を除く*/
+    font-size: 100px;
+    line-height: 1;/*行高は1に*/
+    padding: 5px 10px;/*文字周りの余白*/
+
+
+     }
+
+    .ocean img {
+        width: 100%;
+    }
+    /* /宮古島*/
 
     </style>
 </head>
@@ -71,6 +92,11 @@
 
         
     <body>
+
+        <div class="ocean">
+            <img src="images/miyakojima.jpg" />
+            <p>ayaponzu</p>	
+        </div>
         
 
         <div class="card-container">
