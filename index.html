@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Bootstrap CSS の読み込み -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+    <style>
+        /*モバイルファースト*/
+
+    .card-container{
+        background: #193e3e;
+        color: #fff;
+        display: flex;
+        margin: 20px auto;
+        width: 100%;
+        box-shadow: 0 12px 10px -6px rgba(0,0,0,.25);
+    }
+    .card-container a{
+        text-decoration: none;
+        color: #ffffff;  /*タイトルの色*/
+    }
+    
+    .card-text1{
+        width:100%;
+        margin: 10px 20px;/*テキストの余白*/
+    }
+    .card-text1 h2{
+        padding-top: 10px;
+        font-size: 1em;
+    }
+    .card-text1 p{
+        font-size: 0.6em;
+    }
+    .card-img{
+        width: 80%;
+    }
+
+    img{
+        width:100%;
+        height:100%;
+        vertical-align:bottom;
+    }
+
+    /*PCサイズ*/
+
+    @media screen and (min-width:650px) {
+        .card-container{
+            max-width: 750px;
+            height: 250px;
+        }
+
+        .card-text1 h2{
+            font-size: 1.3em;
+        }
+        .card-text1 p{
+            font-size: 1em;
+        }
+    }
+    /*ここまでが画像の横に文字並べる(レスポンシブ入り)*/
+
+
+
+    </style>
+</head>
+
+
+
+
+        
+    <body>
+        
+
+        <div class="card-container">
+            <div class="card-img">
+                <a href="#"><img width="750" height="200" src="forest_icon.png" alt="" /></a>
+            </div>
+            <div class="card-text1">
+                <a href="#"><h2>ayaponzu</h2></a>
+                <p>I'm from Osaka</p>
+                <p>2005/02/05</p>
+                <p>Hobby : 
+                    <ul>
+                        <li>Apex</li>
+                        <li>Minecraft</li>
+                        <li>Outdoor</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+       
+
+
+
+              <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card">
+                            <div class="card text-white bg-dark mb-3" >
+                                <img src="hike-5796976_1280.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Strong Point</h5>
+                                <p class="card-text">I have spirit of challenge!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card">
+                            <div class="card text-white bg-dark mb-3" >
+                                <img src="目にもとまらぬ速さでタイピング.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Skill</h5>
+                                <p class="card-text">Typing</p>
+                                <p class="card-text">Python</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card">
+                            <div class="card text-white bg-dark mb-3" >
+                                <img src="_2023-Dec-19_03-14-09AM-000_CustomizedView14797460741.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Achievements</h5>
+                                <p class="card-text">I placed in students design competition of Fusion360.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+        
+
+
+              
+                
+              
+
+
+
+    </body>
+</html>
